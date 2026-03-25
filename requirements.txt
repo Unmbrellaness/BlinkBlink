@@ -1,0 +1,18 @@
+# GUI相关
+PyQt5>=5.15.0
+PyQt-SiliconUI
+
+# 图像处理
+opencv-python==4.13.0.90
+
+# 机器学习/面部关键点检测
+mediapipe==0.10.5
+
+# 科学计算
+numpy>=1.20.0
+scipy>=1.7.0
+
+# 系统通知
+plyer>=2.1.0
+pyttsx3>=2.90
+pygame
