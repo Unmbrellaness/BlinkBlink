@@ -1,0 +1,30 @@
+{
+    "detection": {
+        "use_adaptive_threshold": true,
+        "adaptive_window_seconds": 3.5,
+        "adaptive_threshold_ratio": 0.75,
+        "adaptive_min_threshold": 0.15,
+        "adaptive_max_threshold": 0.4
+    },
+    "mediapipe": {
+        "min_detection_confidence": 0.6,
+        "min_tracking_confidence": 0.3,
+        "refine_landmarks": true
+    },
+    "alert": {
+        "enabled": true,
+        "use_system_notification": true,
+        "use_in_app_notification": true,
+        "sound_enabled": false,
+        "voice_enabled": true,
+        "alert_interval": 30
+    },
+    "camera": {
+        "camera_index": 0,
+        "buffer_size": 10,
+        "target_fps": 50.0
+    },
+    "auto_start": false,
+    "minimize_to_tray": true,
+    "stats_retention_days": 7
+}

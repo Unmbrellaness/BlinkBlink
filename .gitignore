@@ -58,12 +58,5 @@ env/
 Thumbs.db
 Desktop.ini
 
-# Project specific
-assert/
-icons/
-img/
-*.mp3
-config.json
-
 # Logs
 *.log
